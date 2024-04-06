@@ -1,0 +1,44 @@
+﻿  CCommandLine.c
+  console.c
+  VariableContainers.c
+  VariableContainer_Double.c
+  VariableContainer_Float.c
+C:\Users\dylan\source\repos\Code Resources\ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Double.c(10,1): warning C4003: not enough arguments for function-like macro invocation 'VC_DEFINE_New'
+C:\Users\dylan\source\repos\Code Resources\ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Float.c(10,1): warning C4003: not enough arguments for function-like macro invocation 'VC_DEFINE_New'
+C:\Users\dylan\source\repos\Code Resources\ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Float.c(18,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  VariableContainer_LongDouble.c
+C:\Users\dylan\source\repos\Code Resources\ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_LongDouble.c(10,1): warning C4003: not enough arguments for function-like macro invocation 'VC_DEFINE_New'
+  VariableContainer_ULong.c
+C:\Users\dylan\source\repos\Code Resources\ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_ULong.c(10,1): warning C4003: not enough arguments for function-like macro invocation 'VC_DEFINE_New'
+  VariableContainer_Char.c
+C:\Users\dylan\source\repos\Code Resources\ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Char.c(10,1): warning C4003: not enough arguments for function-like macro invocation 'VC_DEFINE_New'
+  VariableContainer_Int.c
+C:\Users\dylan\source\repos\Code Resources\ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Int.c(10,1): warning C4003: not enough arguments for function-like macro invocation 'VC_DEFINE_New'
+  VariableContainer_Long.c
+C:\Users\dylan\source\repos\Code Resources\ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Long.c(10,1): warning C4003: not enough arguments for function-like macro invocation 'VC_DEFINE_New'
+  VariableContainer_Template.c
+  VariableContainer_UChar.c
+C:\Users\dylan\source\repos\Code Resources\ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_UChar.c(10,1): warning C4003: not enough arguments for function-like macro invocation 'VC_DEFINE_New'
+  VariableContainer_UInt.c
+C:\Users\dylan\source\repos\Code Resources\ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_UInt.c(10,1): warning C4003: not enough arguments for function-like macro invocation 'VC_DEFINE_New'
+  VariableContainer_LongLong.c
+C:\Users\dylan\source\repos\Code Resources\ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_LongLong.c(10,1): warning C4003: not enough arguments for function-like macro invocation 'VC_DEFINE_New'
+  VariableContainer_ULongLong.c
+C:\Users\dylan\source\repos\Code Resources\ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_ULongLong.c(10,1): warning C4003: not enough arguments for function-like macro invocation 'VC_DEFINE_New'
+C:\Users\dylan\source\repos\Code Resources\ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_ULongLong.c(13,1): warning C4477: 'fwprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  C:\Users\dylan\source\repos\Code Resources\ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_ULongLong.c(13,1):
+  consider using '%lld' in the format string
+  C:\Users\dylan\source\repos\Code Resources\ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_ULongLong.c(13,1):
+  consider using '%Id' in the format string
+  C:\Users\dylan\source\repos\Code Resources\ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_ULongLong.c(13,1):
+  consider using '%I64d' in the format string
+  
+  main.c
+C:\Users\dylan\source\repos\Code Resources\main.c(18,9): warning C4477: 'wprintf' : format string '%.6f' requires an argument of type 'double', but variadic argument 1 has type 'float *'
+  math.c
+  rand64.c
+  string.c
+C:\Users\dylan\source\repos\Code Resources\Utils\string.c(46,54): warning C4133: 'function': incompatible types - from 'LPSTR' to 'const wchar_t *'
+C:\Users\dylan\source\repos\Code Resources\Utils\string.c(46,76): warning C4133: 'function': incompatible types - from 'LPSTR' to 'const wchar_t *'
+C:\Users\dylan\source\repos\Code Resources\Utils\string.c(46,26): warning C4133: 'return': incompatible types - from 'wchar_t *' to 'LPSTR'
+C:\Users\dylan\source\repos\Code Resources\Utils\string.c(107,2): error C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

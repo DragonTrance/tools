@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ClassesAndInit">
+      <UniqueIdentifier>{a7500fec-4a69-48b2-b91e-acfe1323de19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassesAndInit\Console">
+      <UniqueIdentifier>{59ec4de3-cb01-4be9-bdf4-fa81e6e1b5fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IncludeBasic">
+      <UniqueIdentifier>{90dfa42c-9a66-4f67-948e-82bb1c6eda1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{9f4ec28c-4c92-471b-8e19-35dbd22a3722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassesAndInit\CCommandLine">
+      <UniqueIdentifier>{0e937b26-6d1a-4731-ab22-df76a001b3b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassesAndInit\DynamicVars">
+      <UniqueIdentifier>{af840721-1231-45af-be81-c00c74fff404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassesAndInit\DynamicVars\VariableContainers">
+      <UniqueIdentifier>{6c61f3b6-48c0-4624-8cd4-68521d8b5bef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesAndInit\console.c">
+      <Filter>Source Files\ClassesAndInit\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\string.c">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesAndInit\CCommandLine.c">
+      <Filter>Source Files\ClassesAndInit\CCommandLine</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\math.c">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\rand64.c">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Template.c">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Int.c">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_UInt.c">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Char.c">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_UChar.c">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Long.c">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_ULong.c">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_LongLong.c">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_ULongLong.c">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Float.c">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Double.c">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_LongDouble.c">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesAndInit\DynamicVars\VariableContainers.c">
+      <Filter>Source Files\ClassesAndInit\DynamicVars</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClassesAndInit\console.h">
+      <Filter>Source Files\ClassesAndInit\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="IncludeBasic\unicode.h">
+      <Filter>Source Files\IncludeBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\string.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\debug.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\math.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassesAndInit\CCommandLine.h">
+      <Filter>Source Files\ClassesAndInit\CCommandLine</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\rand64.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassesAndInit\DynamicVars.h">
+      <Filter>Source Files\ClassesAndInit\DynamicVars</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassesAndInit\DynamicVars\VariableContainers.h">
+      <Filter>Source Files\ClassesAndInit\DynamicVars</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassesAndInit\DynamicVars\VariableContainers\vc_main_header.h">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Template.h">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Int.h">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_UInt.h">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Char.h">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_UChar.h">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Long.h">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_ULong.h">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_LongLong.h">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Float.h">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_ULongLong.h">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Double.h">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_LongDouble.h">
+      <Filter>Source Files\ClassesAndInit\DynamicVars\VariableContainers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
