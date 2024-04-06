@@ -1,3 +1,0 @@
-﻿  VariableContainer_Float.c
-C:\Users\dylan\source\repos\Code Resources\ClassesAndInit\DynamicVars\VariableContainers\VariableContainer_Float.c(10,1): warning C4003: not enough arguments for function-like macro invocation 'VC_DEFINE_New'
-  Code Resources.vcxproj -> C:\Users\dylan\source\repos\Code Resources\x64\Debug\Code Resources.exe
