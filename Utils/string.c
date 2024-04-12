@@ -43,7 +43,10 @@ void PrintStringArrayW(LPWSTR* starr, size_t stsize, LPWSTR delimiter, BOOL newl
 LPSTR StringAppendA(LPSTR src, LPSTR appending)
 {
 	//If either appending or src is null, returns a duplicated string of the opposite, unless they are both null
+#pragma warning(push)
+#pragma warning(disable: 6387)
 	if (!appending || !src) return (appending ? _wcsdup(src) : (src ? _wcsdup(appending) : NULL));
+#pragma warning(pop)
 
 	//Getting the length of both strings
 	size_t src_size = strlen(src) * sizeof(src[0]);
@@ -65,7 +68,10 @@ LPSTR StringAppendA(LPSTR src, LPSTR appending)
 LPWSTR StringAppendW(LPWSTR src, LPWSTR appending)
 {
 	//If either appending or src is null, returns a duplicated string of the opposite, unless they are both null
+#pragma warning(push)
+#pragma warning(disable: 6387)
 	if (!appending || !src) return (appending ? _wcsdup(src) : (src ? _wcsdup(appending) : NULL));
+#pragma warning(pop)
 
 	//Getting the length of both strings
 	size_t src_size = wcslen(src);

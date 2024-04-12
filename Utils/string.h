@@ -3,7 +3,7 @@
 	No licensing. Permission is allowed to make open-source / creative commons.
 
 	Used between projects, may not be up-to-date.
-	Last Update: April 4th, 2024
+	Last Update: April 9th, 2024
 */
 
 #ifndef _DEF_STRING_H
@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 #include <Windows.h>
-#include "../Utils/math.h"				//Utils/math.h
+#include "math.h"
 #include "../IncludeBasic/unicode.h"	//IncludeBasic/unicode.h
 
 #define _NUMBERSTRING(contents) #contents

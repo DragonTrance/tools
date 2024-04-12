@@ -3,7 +3,7 @@
 	No licensing. Permission is allowed to make open-source / creative commons.
 
 	Used between projects, may not be up-to-date.
-	Last Update: April 4th, 2024
+	Last Update: April 12th, 2024
 */
 
 #ifndef _DEF_UNICODE_H
@@ -11,6 +11,7 @@
 
 #include <Windows.h>
 #include <stdio.h>
+#include <direct.h>
 
 #ifdef _UNICODE
 
@@ -18,6 +19,7 @@
 #define MAIN(...) wWinMain(__VA_ARGS__)
 
 typedef LPWSTR STRING;
+typedef LPCWSTR CSTRING;
 typedef WCHAR CHAR_T;
 
 #define INLINE_STRING(contents) L#contents
@@ -26,10 +28,13 @@ typedef WCHAR CHAR_T;
 #define PUTS _putws
 #define PUTC putwc
 #define SNPRINTF _snwprintf
+#define SPRINTF_S swprintf_s
 #define STRLEN wcslen
 #define STRDUP wcsdup
+#define STRICMP _wcsicmp
 #define FGETC fgetwc
 #define GETCOMMANDLINE GetCommandLineW
+#define GETCWD _wgetcwd
 
 #define FOPEN _wfopen
 #define FPUTC fputwc
@@ -56,6 +61,7 @@ typedef WCHAR CHAR_T;
 #define MAIN(...) WinMain(__VA_ARGS__)
 
 typedef LPSTR STRING;
+typedef LPCSTR CSTRING;
 typedef CHAR CHAR_T;
 
 #define INLINE_STRING(contents) #contents
@@ -64,10 +70,13 @@ typedef CHAR CHAR_T;
 #define PUTS puts
 #define PUTC putc
 #define SNPRINTF snprintf
+#define SPRINTF_S sprintf_s
 #define STRLEN strlen
 #define STRDUP strdup
+#define STRICMP _stricmp
 #define FGETC fgetc
 #define GETCOMMANDLINE GetCommandLine
+#define GETCWD _getcwd
 
 #define FOPEN fopen
 #define FPUTC fputc
